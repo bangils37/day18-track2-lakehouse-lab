@@ -14,7 +14,7 @@ from lakehouse import path, reset
 
 
 def step(label: str) -> None:
-    print(f"  • {label}")
+    print(f"  > {label.replace('≥', '>=')}")
 
 
 def main() -> int:
